@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* UTILITY */
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn{
+    background: #000;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    padding: 1rem 2rem;
+    font-weight: bolder;
+}
+
+/* NAVBAR */
+#navbar{
+    display: flex;
+    background: #000;
+    color: #fff;
+    padding: 1rem 1.5rem;
+}
+
+#navbar h1{
+    flex: 1;
+}
+
+#navbar div{
+    flex: 1;
+}
+
+#nav-content{
+    margin-top: 2px;
+    text-align: right;
+}
+
+#nav-content span{
+    margin: .5rem;
+}
+
+#nav-content a{
+    color: #fff;
+    margin-bottom: -2rem;
+}
+
+#nav-content a:hover {
+    font-weight: bolder;
+}
+
+/* Section: Showcase */
+#show{
+    display: flex;
+    background: url('../img/bharathi-kannan-rfL-thiRzDs-unsplash.jpg') no-repeat center center/cover;
+    justify-content: center;
+    height: 548px;
+    align-items: flex-start;
+}
+
+#show .container{
+    margin-top: 3rem;
+}
+
+#show .container{
+    text-align: center;
+}
+
+#show .container h1{
+    font-weight: bold;
+    font-size: 3rem;
+    margin: .5rem auto;
+}
+
+#show .container h1 span{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+/* Section: CONTENT */
+#content{
+    display: flex;
+    height: 300px;
+}
+
+#content .pictures{
+    flex:3;
+    background: url('../img/fabian-gieske-pcXb7MobWvk-unsplash.jpg') no-repeat center center/cover;
+    text-align: center;
+}
+
+#content .pictures p,
+#content .blogs p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+#content .blogs{
+    flex: 2;
+    background: url('../img/2photo-pots-vT9SSvrAncY-unsplash.jpg') no-repeat center center/cover;
+    text-align: center;
+}
+
+#content .pictures div,
+#content .blogs div{
+    margin-top: 100px;
+}
+
+/* SECTION: ABOUT */
+#about .container-about{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-details{
+    flex: 1;
+    padding: 10px;
+}
+
+.about-details div h3,
+.about-details div p{
+    text-align: center;
+}
+
+.about-details i,
+.about-details button{
+    margin-left: 171px;
+}
+
+.about-details i{
+    margin-bottom: 10px;
+}
+
+.about-details p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* FOOTER */
+footer{
+    background: #FBF8F8;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+#footer span{
+    margin: 1rem;
+}
+
+#footer a{
+    color: black;
+}
